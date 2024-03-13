@@ -13,8 +13,10 @@
          to allow setting breakpoints, to provide hot reload, etc.
     -->
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
     <!--
-     Required to query activities that can process text, see:
+ Required to query activities that can process text, see:
          https://developer.android.com/training/package-visibility?hl=en and
          https://developer.android.com/reference/android/content/Intent#ACTION_PROCESS_TEXT.
 
@@ -83,7 +85,7 @@
             android:value="2" />
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="AIzaSyCv46WaFWEk94KBGK0YAxo3t-DGgFQEO7s" />
+            android:value="AIzaSyAfuGkKwJN9WIO3T1pFb5ee-T0_4yCaT5g" />
 
         <service
             android:name="com.google.firebase.components.ComponentDiscoveryService"

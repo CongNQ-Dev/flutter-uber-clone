@@ -54,6 +54,7 @@ class DefaultFirebaseOptions {
     appId: '1:794746531374:android:862f18f06bd8f97a14b9bf',
     messagingSenderId: '794746531374',
     projectId: 'flutter-uber-clone-443e8',
+    databaseURL: 'https://flutter-uber-clone-443e8-default-rtdb.asia-southeast1.firebasedatabase.app',
     storageBucket: 'flutter-uber-clone-443e8.appspot.com',
   );
 
@@ -62,6 +63,7 @@ class DefaultFirebaseOptions {
     appId: '1:794746531374:ios:043c0ff8c7542af914b9bf',
     messagingSenderId: '794746531374',
     projectId: 'flutter-uber-clone-443e8',
+    databaseURL: 'https://flutter-uber-clone-443e8-default-rtdb.asia-southeast1.firebasedatabase.app',
     storageBucket: 'flutter-uber-clone-443e8.appspot.com',
     iosBundleId: 'com.example.uberClone',
   );

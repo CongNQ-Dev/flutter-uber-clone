@@ -4632,6 +4632,25 @@
                     }
                 },
                 {
+                    "source": "/Users/cong.nguyen/Documents/Documents/mobile/flutter/flutter-uber-clone/passenger/android/app/src/main/res/values/styles.xml",
+                    "from": {
+                        "startLines": "3,14",
+                        "startColumns": "4,4",
+                        "startOffsets": "173,818",
+                        "endLines": "7,16",
+                        "endColumns": "12,12",
+                        "endOffsets": "476,982"
+                    },
+                    "to": {
+                        "startLines": "141,145",
+                        "startColumns": "4,4",
+                        "startOffsets": "9989,10170",
+                        "endLines": "144,147",
+                        "endColumns": "12,12",
+                        "endOffsets": "10165,10334"
+                    }
+                },
+                {
                     "source": "/Users/cong.nguyen/.gradle/caches/transforms-3/1ebdb9cc934b3e003848eff98196d15a/transformed/lifecycle-runtime-2.3.1/res/values/values.xml",
                     "from": {
                         "startLines": "2",
@@ -4718,25 +4737,6 @@
                         "endLines": "355",
                         "endColumns": "20",
                         "endOffsets": "17144"
-                    }
-                },
-                {
-                    "source": "/Users/cong.nguyen/Documents/Documents/mobile/flutter/flutter-uber-clone/android/app/src/main/res/values/styles.xml",
-                    "from": {
-                        "startLines": "3,14",
-                        "startColumns": "4,4",
-                        "startOffsets": "173,818",
-                        "endLines": "7,16",
-                        "endColumns": "12,12",
-                        "endOffsets": "476,982"
-                    },
-                    "to": {
-                        "startLines": "141,145",
-                        "startColumns": "4,4",
-                        "startOffsets": "9989,10170",
-                        "endLines": "144,147",
-                        "endColumns": "12,12",
-                        "endOffsets": "10165,10334"
                     }
                 },
                 {
@@ -5492,7 +5492,7 @@
             "outputFile": "com.example.uber_clone.app-merged_res-18:/values-night-v8_values-night-v8.arsc.flat",
             "map": [
                 {
-                    "source": "/Users/cong.nguyen/Documents/Documents/mobile/flutter/flutter-uber-clone/android/app/src/main/res/values-night/styles.xml",
+                    "source": "/Users/cong.nguyen/Documents/Documents/mobile/flutter/flutter-uber-clone/passenger/android/app/src/main/res/values-night/styles.xml",
                     "from": {
                         "startLines": "3,14",
                         "startColumns": "4,4",

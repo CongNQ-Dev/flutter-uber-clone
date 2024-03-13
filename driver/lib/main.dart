@@ -5,25 +5,22 @@ import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:permission_handler/permission_handler.dart';
 import 'authentication/login_screen.dart';
+import 'package:drivers_app/firebase_options.dart';
 
-
-Future<void> main() async
-{
+Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  await Firebase.initializeApp();
+  await Firebase.initializeApp(
+    options: DefaultFirebaseOptions.currentPlatform,
+  );
 
-  await Permission.locationWhenInUse.isDenied.then((valueOfPermission)
-  {
-    if(valueOfPermission)
-    {
+  await Permission.locationWhenInUse.isDenied.then((valueOfPermission) {
+    if (valueOfPermission) {
       Permission.locationWhenInUse.request();
     }
   });
 
-  await Permission.notification.isDenied.then((valueOfPermission)
-  {
-    if(valueOfPermission)
-    {
+  await Permission.notification.isDenied.then((valueOfPermission) {
+    if (valueOfPermission) {
       Permission.notification.request();
     }
   });
@@ -31,20 +28,20 @@ Future<void> main() async
   runApp(const MyApp());
 }
 
-class MyApp extends StatelessWidget
-{
+class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
   @override
-  Widget build(BuildContext context)
-  {
+  Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Drivers App',
       debugShowCheckedModeBanner: false,
       theme: ThemeData.dark().copyWith(
         scaffoldBackgroundColor: Colors.black,
       ),
-      home: FirebaseAuth.instance.currentUser == null ? LoginScreen() : Dashboard(),
+      home: FirebaseAuth.instance.currentUser == null
+          ? LoginScreen()
+          : Dashboard(),
     );
   }
 }

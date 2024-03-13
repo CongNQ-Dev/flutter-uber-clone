@@ -6,7 +6,6 @@ import 'package:flutter/material.dart';
 import '../methods/common_methods.dart';
 import '../widgets/loading_dialog.dart';
 
-
 class LoginScreen extends StatefulWidget {
   const LoginScreen({super.key});
 
@@ -14,84 +13,71 @@ class LoginScreen extends StatefulWidget {
   State<LoginScreen> createState() => _LoginScreenState();
 }
 
-
-
-class _LoginScreenState extends State<LoginScreen>
-{
+class _LoginScreenState extends State<LoginScreen> {
   TextEditingController emailTextEditingController = TextEditingController();
   TextEditingController passwordTextEditingController = TextEditingController();
   CommonMethods cMethods = CommonMethods();
 
-
-
-  checkIfNetworkIsAvailable()
-  {
+  checkIfNetworkIsAvailable() {
     cMethods.checkConnectivity(context);
 
     signInFormValidation();
   }
 
-  signInFormValidation()
-  {
-
-    if(!emailTextEditingController.text.contains("@"))
-    {
+  signInFormValidation() {
+    if (!emailTextEditingController.text.contains("@")) {
       cMethods.displaySnackBar("please write valid email.", context);
-    }
-    else if(passwordTextEditingController.text.trim().length < 5)
-    {
-      cMethods.displaySnackBar("your password must be atleast 6 or more characters.", context);
-    }
-    else
-    {
+    } else if (passwordTextEditingController.text.trim().length < 5) {
+      cMethods.displaySnackBar(
+          "your password must be atleast 6 or more characters.", context);
+    } else {
       signInUser();
     }
   }
 
-  signInUser() async
-  {
+  signInUser() async {
     showDialog(
       context: context,
       barrierDismissible: false,
-      builder: (BuildContext context) => LoadingDialog(messageText: "Allowing you to Login..."),
+      builder: (BuildContext context) =>
+          LoadingDialog(messageText: "Allowing you to Login..."),
     );
 
-    final User? userFirebase = (
-        await FirebaseAuth.instance.signInWithEmailAndPassword(
-          email: emailTextEditingController.text.trim(),
-          password: passwordTextEditingController.text.trim(),
-        ).catchError((errorMsg)
-        {
-          Navigator.pop(context);
-          cMethods.displaySnackBar(errorMsg.toString(), context);
-        })
-    ).user;
+    final User? userFirebase = (await FirebaseAuth.instance
+            .signInWithEmailAndPassword(
+      email: emailTextEditingController.text.trim(),
+      password: passwordTextEditingController.text.trim(),
+    )
+            .catchError((errorMsg) {
+      Navigator.pop(context);
+      cMethods.displaySnackBar(errorMsg.toString(), context);
+    }))
+        .user;
 
-    if(!context.mounted) return;
+    if (!context.mounted) return;
     Navigator.pop(context);
 
-    if(userFirebase != null)
-    {
-      DatabaseReference usersRef = FirebaseDatabase.instance.ref().child("drivers").child(userFirebase.uid);
-      usersRef.once().then((snap)
-      {
-        if(snap.snapshot.value != null)
-        {
-          if((snap.snapshot.value as Map)["blockStatus"] == "no")
-          {
+    if (userFirebase != null) {
+      DatabaseReference usersRef = FirebaseDatabase.instance
+          .ref()
+          .child("drivers")
+          .child(userFirebase.uid);
+      usersRef.once().then((snap) {
+        if (snap.snapshot.value != null) {
+          if ((snap.snapshot.value as Map)["blockStatus"] == "no") {
             //userName = (snap.snapshot.value as Map)["name"];
-            Navigator.push(context, MaterialPageRoute(builder: (c)=> Dashboard()));
-          }
-          else
-          {
+            Navigator.push(
+                context, MaterialPageRoute(builder: (c) => Dashboard()));
+          } else {
             FirebaseAuth.instance.signOut();
-            cMethods.displaySnackBar("you are blocked. Contact admin: alizeb875@gmail.com", context);
+            cMethods.displaySnackBar(
+                "you are blocked. Contact admin: congnguyen.working@gmail.com",
+                context);
           }
-        }
-        else
-        {
+        } else {
           FirebaseAuth.instance.signOut();
-          cMethods.displaySnackBar("your record do not exists as a Driver.", context);
+          cMethods.displaySnackBar(
+              "your record do not exists as a Driver.", context);
         }
       });
     }
@@ -105,13 +91,12 @@ class _LoginScreenState extends State<LoginScreen>
           padding: const EdgeInsets.all(10),
           child: Column(
             children: [
-
               const SizedBox(
                 height: 60,
               ),
 
               Image.asset(
-                  "assets/images/uberexec.png",
+                "assets/images/uberexec.png",
                 width: 220,
               ),
 
@@ -132,7 +117,6 @@ class _LoginScreenState extends State<LoginScreen>
                 padding: const EdgeInsets.all(22),
                 child: Column(
                   children: [
-
                     TextField(
                       controller: emailTextEditingController,
                       keyboardType: TextInputType.emailAddress,
@@ -147,9 +131,9 @@ class _LoginScreenState extends State<LoginScreen>
                         fontSize: 15,
                       ),
                     ),
-
-                    const SizedBox(height: 22,),
-
+                    const SizedBox(
+                      height: 22,
+                    ),
                     TextField(
                       controller: passwordTextEditingController,
                       obscureText: true,
@@ -165,34 +149,32 @@ class _LoginScreenState extends State<LoginScreen>
                         fontSize: 15,
                       ),
                     ),
-
-                    const SizedBox(height: 32,),
-
+                    const SizedBox(
+                      height: 32,
+                    ),
                     ElevatedButton(
-                      onPressed: ()
-                      {
+                      onPressed: () {
                         checkIfNetworkIsAvailable();
                       },
                       style: ElevatedButton.styleFrom(
                           backgroundColor: Colors.purple,
-                          padding: const EdgeInsets.symmetric(horizontal: 80, vertical: 10)
-                      ),
-                      child: const Text(
-                          "Login"
-                      ),
+                          padding: const EdgeInsets.symmetric(
+                              horizontal: 80, vertical: 10)),
+                      child: const Text("Login"),
                     ),
-
                   ],
                 ),
               ),
 
-              const SizedBox(height: 12,),
+              const SizedBox(
+                height: 12,
+              ),
 
               //textbutton
               TextButton(
-                onPressed: ()
-                {
-                  Navigator.push(context, MaterialPageRoute(builder: (c)=> SignUpScreen()));
+                onPressed: () {
+                  Navigator.push(context,
+                      MaterialPageRoute(builder: (c) => SignUpScreen()));
                 },
                 child: const Text(
                   "Don\'t have an Account? Register Here",
@@ -201,7 +183,6 @@ class _LoginScreenState extends State<LoginScreen>
                   ),
                 ),
               ),
-
             ],
           ),
         ),

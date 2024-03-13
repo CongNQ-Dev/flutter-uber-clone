@@ -1,18 +1,18 @@
 -- Merging decision tree log ---
 application
-INJECTED from /Users/cong.nguyen/Documents/Documents/mobile/flutter/flutter-uber-clone/android/app/src/main/AndroidManifest.xml:2:5-34:19
-MERGED from [:firebase_database] /Users/cong.nguyen/Documents/Documents/mobile/flutter/flutter-uber-clone/build/firebase_database/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-15:19
-MERGED from [:firebase_database] /Users/cong.nguyen/Documents/Documents/mobile/flutter/flutter-uber-clone/build/firebase_database/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-15:19
-MERGED from [:firebase_auth] /Users/cong.nguyen/Documents/Documents/mobile/flutter/flutter-uber-clone/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-15:19
-MERGED from [:firebase_auth] /Users/cong.nguyen/Documents/Documents/mobile/flutter/flutter-uber-clone/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-15:19
-MERGED from [:firebase_storage] /Users/cong.nguyen/Documents/Documents/mobile/flutter/flutter-uber-clone/build/firebase_storage/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-15:19
-MERGED from [:firebase_storage] /Users/cong.nguyen/Documents/Documents/mobile/flutter/flutter-uber-clone/build/firebase_storage/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-15:19
-MERGED from [:firebase_core] /Users/cong.nguyen/Documents/Documents/mobile/flutter/flutter-uber-clone/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-15:19
-MERGED from [:firebase_core] /Users/cong.nguyen/Documents/Documents/mobile/flutter/flutter-uber-clone/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-15:19
-MERGED from [:geolocator_android] /Users/cong.nguyen/Documents/Documents/mobile/flutter/flutter-uber-clone/build/geolocator_android/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-15:19
-MERGED from [:geolocator_android] /Users/cong.nguyen/Documents/Documents/mobile/flutter/flutter-uber-clone/build/geolocator_android/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-15:19
-MERGED from [:url_launcher_android] /Users/cong.nguyen/Documents/Documents/mobile/flutter/flutter-uber-clone/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-14:19
-MERGED from [:url_launcher_android] /Users/cong.nguyen/Documents/Documents/mobile/flutter/flutter-uber-clone/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-14:19
+INJECTED from /Users/cong.nguyen/Documents/Documents/mobile/flutter/flutter-uber-clone/passenger/android/app/src/main/AndroidManifest.xml:4:5-36:19
+MERGED from [:firebase_database] /Users/cong.nguyen/Documents/Documents/mobile/flutter/flutter-uber-clone/passenger/build/firebase_database/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-15:19
+MERGED from [:firebase_database] /Users/cong.nguyen/Documents/Documents/mobile/flutter/flutter-uber-clone/passenger/build/firebase_database/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-15:19
+MERGED from [:firebase_auth] /Users/cong.nguyen/Documents/Documents/mobile/flutter/flutter-uber-clone/passenger/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-15:19
+MERGED from [:firebase_auth] /Users/cong.nguyen/Documents/Documents/mobile/flutter/flutter-uber-clone/passenger/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-15:19
+MERGED from [:firebase_storage] /Users/cong.nguyen/Documents/Documents/mobile/flutter/flutter-uber-clone/passenger/build/firebase_storage/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-15:19
+MERGED from [:firebase_storage] /Users/cong.nguyen/Documents/Documents/mobile/flutter/flutter-uber-clone/passenger/build/firebase_storage/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-15:19
+MERGED from [:firebase_core] /Users/cong.nguyen/Documents/Documents/mobile/flutter/flutter-uber-clone/passenger/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-15:19
+MERGED from [:firebase_core] /Users/cong.nguyen/Documents/Documents/mobile/flutter/flutter-uber-clone/passenger/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-15:19
+MERGED from [:geolocator_android] /Users/cong.nguyen/Documents/Documents/mobile/flutter/flutter-uber-clone/passenger/build/geolocator_android/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-15:19
+MERGED from [:geolocator_android] /Users/cong.nguyen/Documents/Documents/mobile/flutter/flutter-uber-clone/passenger/build/geolocator_android/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-15:19
+MERGED from [:url_launcher_android] /Users/cong.nguyen/Documents/Documents/mobile/flutter/flutter-uber-clone/passenger/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-14:19
+MERGED from [:url_launcher_android] /Users/cong.nguyen/Documents/Documents/mobile/flutter/flutter-uber-clone/passenger/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-14:19
 MERGED from [com.google.android.gms:play-services-location:21.1.0] /Users/cong.nguyen/.gradle/caches/transforms-3/ae216bd34550093b56a286985e755fc0/transformed/jetified-play-services-location-21.1.0/AndroidManifest.xml:7:5-20
 MERGED from [com.google.android.gms:play-services-location:21.1.0] /Users/cong.nguyen/.gradle/caches/transforms-3/ae216bd34550093b56a286985e755fc0/transformed/jetified-play-services-location-21.1.0/AndroidManifest.xml:7:5-20
 MERGED from [com.google.firebase:firebase-auth:22.3.1] /Users/cong.nguyen/.gradle/caches/transforms-3/533244640082d8f27bb0b43a22a9dc90/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:28:5-73:19
@@ -50,25 +50,25 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/cong
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.10.1] /Users/cong.nguyen/.gradle/caches/transforms-3/f1f24747a582f8a2b2cc9b47ed21ff63/transformed/core-1.10.1/AndroidManifest.xml:28:18-86
 	android:name
-		INJECTED from /Users/cong.nguyen/Documents/Documents/mobile/flutter/flutter-uber-clone/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/cong.nguyen/Documents/Documents/mobile/flutter/flutter-uber-clone/passenger/android/app/src/main/AndroidManifest.xml
 manifest
-ADDED from /Users/cong.nguyen/Documents/Documents/mobile/flutter/flutter-uber-clone/android/app/src/main/AndroidManifest.xml:1:1-46:12
-INJECTED from /Users/cong.nguyen/Documents/Documents/mobile/flutter/flutter-uber-clone/android/app/src/main/AndroidManifest.xml:1:1-46:12
-INJECTED from /Users/cong.nguyen/Documents/Documents/mobile/flutter/flutter-uber-clone/android/app/src/main/AndroidManifest.xml:1:1-46:12
-INJECTED from /Users/cong.nguyen/Documents/Documents/mobile/flutter/flutter-uber-clone/android/app/src/main/AndroidManifest.xml:1:1-46:12
-MERGED from /Users/cong.nguyen/Documents/Documents/mobile/flutter/flutter-uber-clone/android/app/src/main/AndroidManifest.xml:1:1-46:12
-MERGED from [:firebase_database] /Users/cong.nguyen/Documents/Documents/mobile/flutter/flutter-uber-clone/build/firebase_database/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-17:12
-MERGED from [:firebase_auth] /Users/cong.nguyen/Documents/Documents/mobile/flutter/flutter-uber-clone/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-17:12
-MERGED from [:firebase_storage] /Users/cong.nguyen/Documents/Documents/mobile/flutter/flutter-uber-clone/build/firebase_storage/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-17:12
-MERGED from [:firebase_core] /Users/cong.nguyen/Documents/Documents/mobile/flutter/flutter-uber-clone/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-17:12
-MERGED from [:geolocator_android] /Users/cong.nguyen/Documents/Documents/mobile/flutter/flutter-uber-clone/build/geolocator_android/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-17:12
-MERGED from [:google_maps_flutter_android] /Users/cong.nguyen/Documents/Documents/mobile/flutter/flutter-uber-clone/build/google_maps_flutter_android/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
-MERGED from [:flutter_plugin_android_lifecycle] /Users/cong.nguyen/Documents/Documents/mobile/flutter/flutter-uber-clone/build/flutter_plugin_android_lifecycle/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
-MERGED from [:url_launcher_android] /Users/cong.nguyen/Documents/Documents/mobile/flutter/flutter-uber-clone/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-16:12
-MERGED from [:flutter_geofire] /Users/cong.nguyen/Documents/Documents/mobile/flutter/flutter-uber-clone/build/flutter_geofire/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
-MERGED from [:connectivity_plus] /Users/cong.nguyen/Documents/Documents/mobile/flutter/flutter-uber-clone/build/connectivity_plus/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-11:12
-MERGED from [:permission_handler_android] /Users/cong.nguyen/Documents/Documents/mobile/flutter/flutter-uber-clone/build/permission_handler_android/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
-MERGED from [:restart_app] /Users/cong.nguyen/Documents/Documents/mobile/flutter/flutter-uber-clone/build/restart_app/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
+ADDED from /Users/cong.nguyen/Documents/Documents/mobile/flutter/flutter-uber-clone/passenger/android/app/src/main/AndroidManifest.xml:1:1-48:12
+INJECTED from /Users/cong.nguyen/Documents/Documents/mobile/flutter/flutter-uber-clone/passenger/android/app/src/main/AndroidManifest.xml:1:1-48:12
+INJECTED from /Users/cong.nguyen/Documents/Documents/mobile/flutter/flutter-uber-clone/passenger/android/app/src/main/AndroidManifest.xml:1:1-48:12
+INJECTED from /Users/cong.nguyen/Documents/Documents/mobile/flutter/flutter-uber-clone/passenger/android/app/src/main/AndroidManifest.xml:1:1-48:12
+MERGED from /Users/cong.nguyen/Documents/Documents/mobile/flutter/flutter-uber-clone/passenger/android/app/src/main/AndroidManifest.xml:1:1-48:12
+MERGED from [:firebase_database] /Users/cong.nguyen/Documents/Documents/mobile/flutter/flutter-uber-clone/passenger/build/firebase_database/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-17:12
+MERGED from [:firebase_auth] /Users/cong.nguyen/Documents/Documents/mobile/flutter/flutter-uber-clone/passenger/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-17:12
+MERGED from [:firebase_storage] /Users/cong.nguyen/Documents/Documents/mobile/flutter/flutter-uber-clone/passenger/build/firebase_storage/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-17:12
+MERGED from [:firebase_core] /Users/cong.nguyen/Documents/Documents/mobile/flutter/flutter-uber-clone/passenger/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-17:12
+MERGED from [:geolocator_android] /Users/cong.nguyen/Documents/Documents/mobile/flutter/flutter-uber-clone/passenger/build/geolocator_android/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-17:12
+MERGED from [:google_maps_flutter_android] /Users/cong.nguyen/Documents/Documents/mobile/flutter/flutter-uber-clone/passenger/build/google_maps_flutter_android/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:flutter_plugin_android_lifecycle] /Users/cong.nguyen/Documents/Documents/mobile/flutter/flutter-uber-clone/passenger/build/flutter_plugin_android_lifecycle/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:url_launcher_android] /Users/cong.nguyen/Documents/Documents/mobile/flutter/flutter-uber-clone/passenger/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-16:12
+MERGED from [:flutter_geofire] /Users/cong.nguyen/Documents/Documents/mobile/flutter/flutter-uber-clone/passenger/build/flutter_geofire/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:connectivity_plus] /Users/cong.nguyen/Documents/Documents/mobile/flutter/flutter-uber-clone/passenger/build/connectivity_plus/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:permission_handler_android] /Users/cong.nguyen/Documents/Documents/mobile/flutter/flutter-uber-clone/passenger/build/permission_handler_android/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:restart_app] /Users/cong.nguyen/Documents/Documents/mobile/flutter/flutter-uber-clone/passenger/build/restart_app/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.android.gms:play-services-location:21.1.0] /Users/cong.nguyen/.gradle/caches/transforms-3/ae216bd34550093b56a286985e755fc0/transformed/jetified-play-services-location-21.1.0/AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.firebase:firebase-auth:22.3.1] /Users/cong.nguyen/.gradle/caches/transforms-3/533244640082d8f27bb0b43a22a9dc90/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:17:1-75:12
 MERGED from [com.google.firebase:firebase-storage:20.3.0] /Users/cong.nguyen/.gradle/caches/transforms-3/72c4af45fe5291669422b7a3b2a082bd/transformed/jetified-firebase-storage-20.3.0/AndroidManifest.xml:15:1-39:12
@@ -109,65 +109,73 @@ MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/cong.nguyen/.gr
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/cong.nguyen/.gradle/caches/transforms-3/2d5f4b66b71dbd198ed367081d802780/transformed/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/cong.nguyen/.gradle/caches/transforms-3/b3149d793e898a931a60f2717c1a02a2/transformed/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/cong.nguyen/.gradle/caches/transforms-3/e6b89eab4865a19048d3980dbbb83553/transformed/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:17:1-22:12
-INJECTED from /Users/cong.nguyen/Documents/Documents/mobile/flutter/flutter-uber-clone/android/app/src/debug/AndroidManifest.xml:1:1-7:12
-INJECTED from /Users/cong.nguyen/Documents/Documents/mobile/flutter/flutter-uber-clone/android/app/src/debug/AndroidManifest.xml:1:1-7:12
-INJECTED from /Users/cong.nguyen/Documents/Documents/mobile/flutter/flutter-uber-clone/android/app/src/debug/AndroidManifest.xml:1:1-7:12
+INJECTED from /Users/cong.nguyen/Documents/Documents/mobile/flutter/flutter-uber-clone/passenger/android/app/src/debug/AndroidManifest.xml:1:1-7:12
+INJECTED from /Users/cong.nguyen/Documents/Documents/mobile/flutter/flutter-uber-clone/passenger/android/app/src/debug/AndroidManifest.xml:1:1-7:12
+INJECTED from /Users/cong.nguyen/Documents/Documents/mobile/flutter/flutter-uber-clone/passenger/android/app/src/debug/AndroidManifest.xml:1:1-7:12
 	package
-		INJECTED from /Users/cong.nguyen/Documents/Documents/mobile/flutter/flutter-uber-clone/android/app/src/main/AndroidManifest.xml
-		ADDED from /Users/cong.nguyen/Documents/Documents/mobile/flutter/flutter-uber-clone/android/app/src/main/AndroidManifest.xml:1:1-46:12
-		INJECTED from /Users/cong.nguyen/Documents/Documents/mobile/flutter/flutter-uber-clone/android/app/src/debug/AndroidManifest.xml
+		INJECTED from /Users/cong.nguyen/Documents/Documents/mobile/flutter/flutter-uber-clone/passenger/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/cong.nguyen/Documents/Documents/mobile/flutter/flutter-uber-clone/passenger/android/app/src/main/AndroidManifest.xml:1:1-48:12
+		INJECTED from /Users/cong.nguyen/Documents/Documents/mobile/flutter/flutter-uber-clone/passenger/android/app/src/debug/AndroidManifest.xml
 	android:versionName
-		INJECTED from /Users/cong.nguyen/Documents/Documents/mobile/flutter/flutter-uber-clone/android/app/src/main/AndroidManifest.xml
-		ADDED from /Users/cong.nguyen/Documents/Documents/mobile/flutter/flutter-uber-clone/android/app/src/main/AndroidManifest.xml:1:1-46:12
-		INJECTED from /Users/cong.nguyen/Documents/Documents/mobile/flutter/flutter-uber-clone/android/app/src/debug/AndroidManifest.xml
+		INJECTED from /Users/cong.nguyen/Documents/Documents/mobile/flutter/flutter-uber-clone/passenger/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/cong.nguyen/Documents/Documents/mobile/flutter/flutter-uber-clone/passenger/android/app/src/main/AndroidManifest.xml:1:1-48:12
+		INJECTED from /Users/cong.nguyen/Documents/Documents/mobile/flutter/flutter-uber-clone/passenger/android/app/src/debug/AndroidManifest.xml
 	android:versionCode
-		INJECTED from /Users/cong.nguyen/Documents/Documents/mobile/flutter/flutter-uber-clone/android/app/src/main/AndroidManifest.xml
-		ADDED from /Users/cong.nguyen/Documents/Documents/mobile/flutter/flutter-uber-clone/android/app/src/main/AndroidManifest.xml:1:1-46:12
-		INJECTED from /Users/cong.nguyen/Documents/Documents/mobile/flutter/flutter-uber-clone/android/app/src/debug/AndroidManifest.xml
+		INJECTED from /Users/cong.nguyen/Documents/Documents/mobile/flutter/flutter-uber-clone/passenger/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/cong.nguyen/Documents/Documents/mobile/flutter/flutter-uber-clone/passenger/android/app/src/main/AndroidManifest.xml:1:1-48:12
+		INJECTED from /Users/cong.nguyen/Documents/Documents/mobile/flutter/flutter-uber-clone/passenger/android/app/src/debug/AndroidManifest.xml
 	xmlns:android
-		ADDED from /Users/cong.nguyen/Documents/Documents/mobile/flutter/flutter-uber-clone/android/app/src/main/AndroidManifest.xml:1:11-69
+		ADDED from /Users/cong.nguyen/Documents/Documents/mobile/flutter/flutter-uber-clone/passenger/android/app/src/main/AndroidManifest.xml:1:11-69
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /Users/cong.nguyen/Documents/Documents/mobile/flutter/flutter-uber-clone/passenger/android/app/src/main/AndroidManifest.xml:2:3-77
+	android:name
+		ADDED from /Users/cong.nguyen/Documents/Documents/mobile/flutter/flutter-uber-clone/passenger/android/app/src/main/AndroidManifest.xml:2:20-74
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from /Users/cong.nguyen/Documents/Documents/mobile/flutter/flutter-uber-clone/passenger/android/app/src/main/AndroidManifest.xml:3:5-81
+	android:name
+		ADDED from /Users/cong.nguyen/Documents/Documents/mobile/flutter/flutter-uber-clone/passenger/android/app/src/main/AndroidManifest.xml:3:22-78
 queries
-ADDED from /Users/cong.nguyen/Documents/Documents/mobile/flutter/flutter-uber-clone/android/app/src/main/AndroidManifest.xml:40:5-45:15
+ADDED from /Users/cong.nguyen/Documents/Documents/mobile/flutter/flutter-uber-clone/passenger/android/app/src/main/AndroidManifest.xml:42:5-47:15
 MERGED from [com.google.android.gms:play-services-maps:18.2.0] /Users/cong.nguyen/.gradle/caches/transforms-3/923b3eb6e0dbc3bf5e0ca1df1f71116a/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:30:5-34:15
 MERGED from [com.google.android.gms:play-services-maps:18.2.0] /Users/cong.nguyen/.gradle/caches/transforms-3/923b3eb6e0dbc3bf5e0ca1df1f71116a/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:30:5-34:15
 intent#action:name:android.intent.action.PROCESS_TEXT+data:mimeType:text/plain
-ADDED from /Users/cong.nguyen/Documents/Documents/mobile/flutter/flutter-uber-clone/android/app/src/main/AndroidManifest.xml:41:9-44:18
+ADDED from /Users/cong.nguyen/Documents/Documents/mobile/flutter/flutter-uber-clone/passenger/android/app/src/main/AndroidManifest.xml:43:9-46:18
 action#android.intent.action.PROCESS_TEXT
-ADDED from /Users/cong.nguyen/Documents/Documents/mobile/flutter/flutter-uber-clone/android/app/src/main/AndroidManifest.xml:42:13-72
+ADDED from /Users/cong.nguyen/Documents/Documents/mobile/flutter/flutter-uber-clone/passenger/android/app/src/main/AndroidManifest.xml:44:13-72
 	android:name
-		ADDED from /Users/cong.nguyen/Documents/Documents/mobile/flutter/flutter-uber-clone/android/app/src/main/AndroidManifest.xml:42:21-70
+		ADDED from /Users/cong.nguyen/Documents/Documents/mobile/flutter/flutter-uber-clone/passenger/android/app/src/main/AndroidManifest.xml:44:21-70
 data
-ADDED from /Users/cong.nguyen/Documents/Documents/mobile/flutter/flutter-uber-clone/android/app/src/main/AndroidManifest.xml:43:13-50
+ADDED from /Users/cong.nguyen/Documents/Documents/mobile/flutter/flutter-uber-clone/passenger/android/app/src/main/AndroidManifest.xml:45:13-50
 	android:mimeType
-		ADDED from /Users/cong.nguyen/Documents/Documents/mobile/flutter/flutter-uber-clone/android/app/src/main/AndroidManifest.xml:43:19-48
+		ADDED from /Users/cong.nguyen/Documents/Documents/mobile/flutter/flutter-uber-clone/passenger/android/app/src/main/AndroidManifest.xml:45:19-48
 uses-sdk
-INJECTED from /Users/cong.nguyen/Documents/Documents/mobile/flutter/flutter-uber-clone/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from /Users/cong.nguyen/Documents/Documents/mobile/flutter/flutter-uber-clone/android/app/src/main/AndroidManifest.xml
-INJECTED from /Users/cong.nguyen/Documents/Documents/mobile/flutter/flutter-uber-clone/android/app/src/main/AndroidManifest.xml
-MERGED from [:firebase_database] /Users/cong.nguyen/Documents/Documents/mobile/flutter/flutter-uber-clone/build/firebase_database/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
-MERGED from [:firebase_database] /Users/cong.nguyen/Documents/Documents/mobile/flutter/flutter-uber-clone/build/firebase_database/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
-MERGED from [:firebase_auth] /Users/cong.nguyen/Documents/Documents/mobile/flutter/flutter-uber-clone/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
-MERGED from [:firebase_auth] /Users/cong.nguyen/Documents/Documents/mobile/flutter/flutter-uber-clone/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
-MERGED from [:firebase_storage] /Users/cong.nguyen/Documents/Documents/mobile/flutter/flutter-uber-clone/build/firebase_storage/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
-MERGED from [:firebase_storage] /Users/cong.nguyen/Documents/Documents/mobile/flutter/flutter-uber-clone/build/firebase_storage/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
-MERGED from [:firebase_core] /Users/cong.nguyen/Documents/Documents/mobile/flutter/flutter-uber-clone/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
-MERGED from [:firebase_core] /Users/cong.nguyen/Documents/Documents/mobile/flutter/flutter-uber-clone/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
-MERGED from [:geolocator_android] /Users/cong.nguyen/Documents/Documents/mobile/flutter/flutter-uber-clone/build/geolocator_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
-MERGED from [:geolocator_android] /Users/cong.nguyen/Documents/Documents/mobile/flutter/flutter-uber-clone/build/geolocator_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
-MERGED from [:google_maps_flutter_android] /Users/cong.nguyen/Documents/Documents/mobile/flutter/flutter-uber-clone/build/google_maps_flutter_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
-MERGED from [:google_maps_flutter_android] /Users/cong.nguyen/Documents/Documents/mobile/flutter/flutter-uber-clone/build/google_maps_flutter_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
-MERGED from [:flutter_plugin_android_lifecycle] /Users/cong.nguyen/Documents/Documents/mobile/flutter/flutter-uber-clone/build/flutter_plugin_android_lifecycle/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
-MERGED from [:flutter_plugin_android_lifecycle] /Users/cong.nguyen/Documents/Documents/mobile/flutter/flutter-uber-clone/build/flutter_plugin_android_lifecycle/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
-MERGED from [:url_launcher_android] /Users/cong.nguyen/Documents/Documents/mobile/flutter/flutter-uber-clone/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
-MERGED from [:url_launcher_android] /Users/cong.nguyen/Documents/Documents/mobile/flutter/flutter-uber-clone/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
-MERGED from [:flutter_geofire] /Users/cong.nguyen/Documents/Documents/mobile/flutter/flutter-uber-clone/build/flutter_geofire/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
-MERGED from [:flutter_geofire] /Users/cong.nguyen/Documents/Documents/mobile/flutter/flutter-uber-clone/build/flutter_geofire/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
-MERGED from [:connectivity_plus] /Users/cong.nguyen/Documents/Documents/mobile/flutter/flutter-uber-clone/build/connectivity_plus/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
-MERGED from [:connectivity_plus] /Users/cong.nguyen/Documents/Documents/mobile/flutter/flutter-uber-clone/build/connectivity_plus/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
-MERGED from [:permission_handler_android] /Users/cong.nguyen/Documents/Documents/mobile/flutter/flutter-uber-clone/build/permission_handler_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
-MERGED from [:permission_handler_android] /Users/cong.nguyen/Documents/Documents/mobile/flutter/flutter-uber-clone/build/permission_handler_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
-MERGED from [:restart_app] /Users/cong.nguyen/Documents/Documents/mobile/flutter/flutter-uber-clone/build/restart_app/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
-MERGED from [:restart_app] /Users/cong.nguyen/Documents/Documents/mobile/flutter/flutter-uber-clone/build/restart_app/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+INJECTED from /Users/cong.nguyen/Documents/Documents/mobile/flutter/flutter-uber-clone/passenger/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/cong.nguyen/Documents/Documents/mobile/flutter/flutter-uber-clone/passenger/android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/cong.nguyen/Documents/Documents/mobile/flutter/flutter-uber-clone/passenger/android/app/src/main/AndroidManifest.xml
+MERGED from [:firebase_database] /Users/cong.nguyen/Documents/Documents/mobile/flutter/flutter-uber-clone/passenger/build/firebase_database/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:firebase_database] /Users/cong.nguyen/Documents/Documents/mobile/flutter/flutter-uber-clone/passenger/build/firebase_database/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:firebase_auth] /Users/cong.nguyen/Documents/Documents/mobile/flutter/flutter-uber-clone/passenger/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:firebase_auth] /Users/cong.nguyen/Documents/Documents/mobile/flutter/flutter-uber-clone/passenger/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:firebase_storage] /Users/cong.nguyen/Documents/Documents/mobile/flutter/flutter-uber-clone/passenger/build/firebase_storage/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:firebase_storage] /Users/cong.nguyen/Documents/Documents/mobile/flutter/flutter-uber-clone/passenger/build/firebase_storage/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:firebase_core] /Users/cong.nguyen/Documents/Documents/mobile/flutter/flutter-uber-clone/passenger/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:firebase_core] /Users/cong.nguyen/Documents/Documents/mobile/flutter/flutter-uber-clone/passenger/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:geolocator_android] /Users/cong.nguyen/Documents/Documents/mobile/flutter/flutter-uber-clone/passenger/build/geolocator_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:geolocator_android] /Users/cong.nguyen/Documents/Documents/mobile/flutter/flutter-uber-clone/passenger/build/geolocator_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:google_maps_flutter_android] /Users/cong.nguyen/Documents/Documents/mobile/flutter/flutter-uber-clone/passenger/build/google_maps_flutter_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:google_maps_flutter_android] /Users/cong.nguyen/Documents/Documents/mobile/flutter/flutter-uber-clone/passenger/build/google_maps_flutter_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:flutter_plugin_android_lifecycle] /Users/cong.nguyen/Documents/Documents/mobile/flutter/flutter-uber-clone/passenger/build/flutter_plugin_android_lifecycle/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:flutter_plugin_android_lifecycle] /Users/cong.nguyen/Documents/Documents/mobile/flutter/flutter-uber-clone/passenger/build/flutter_plugin_android_lifecycle/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:url_launcher_android] /Users/cong.nguyen/Documents/Documents/mobile/flutter/flutter-uber-clone/passenger/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:url_launcher_android] /Users/cong.nguyen/Documents/Documents/mobile/flutter/flutter-uber-clone/passenger/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:flutter_geofire] /Users/cong.nguyen/Documents/Documents/mobile/flutter/flutter-uber-clone/passenger/build/flutter_geofire/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:flutter_geofire] /Users/cong.nguyen/Documents/Documents/mobile/flutter/flutter-uber-clone/passenger/build/flutter_geofire/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:connectivity_plus] /Users/cong.nguyen/Documents/Documents/mobile/flutter/flutter-uber-clone/passenger/build/connectivity_plus/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:connectivity_plus] /Users/cong.nguyen/Documents/Documents/mobile/flutter/flutter-uber-clone/passenger/build/connectivity_plus/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:permission_handler_android] /Users/cong.nguyen/Documents/Documents/mobile/flutter/flutter-uber-clone/passenger/build/permission_handler_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:permission_handler_android] /Users/cong.nguyen/Documents/Documents/mobile/flutter/flutter-uber-clone/passenger/build/permission_handler_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:restart_app] /Users/cong.nguyen/Documents/Documents/mobile/flutter/flutter-uber-clone/passenger/build/restart_app/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:restart_app] /Users/cong.nguyen/Documents/Documents/mobile/flutter/flutter-uber-clone/passenger/build/restart_app/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [com.google.android.gms:play-services-location:21.1.0] /Users/cong.nguyen/.gradle/caches/transforms-3/ae216bd34550093b56a286985e755fc0/transformed/jetified-play-services-location-21.1.0/AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-location:21.1.0] /Users/cong.nguyen/.gradle/caches/transforms-3/ae216bd34550093b56a286985e755fc0/transformed/jetified-play-services-location-21.1.0/AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-auth:22.3.1] /Users/cong.nguyen/.gradle/caches/transforms-3/533244640082d8f27bb0b43a22a9dc90/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:21:5-23:64
@@ -248,18 +256,18 @@ MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/cong.nguyen/.gradle/c
 MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/cong.nguyen/.gradle/caches/transforms-3/b3149d793e898a931a60f2717c1a02a2/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/cong.nguyen/.gradle/caches/transforms-3/e6b89eab4865a19048d3980dbbb83553/transformed/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/cong.nguyen/.gradle/caches/transforms-3/e6b89eab4865a19048d3980dbbb83553/transformed/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
-INJECTED from /Users/cong.nguyen/Documents/Documents/mobile/flutter/flutter-uber-clone/android/app/src/debug/AndroidManifest.xml
-INJECTED from /Users/cong.nguyen/Documents/Documents/mobile/flutter/flutter-uber-clone/android/app/src/debug/AndroidManifest.xml
+INJECTED from /Users/cong.nguyen/Documents/Documents/mobile/flutter/flutter-uber-clone/passenger/android/app/src/debug/AndroidManifest.xml
+INJECTED from /Users/cong.nguyen/Documents/Documents/mobile/flutter/flutter-uber-clone/passenger/android/app/src/debug/AndroidManifest.xml
 	tools:overrideLibrary
 		ADDED from [com.google.firebase:firebase-auth:22.3.1] /Users/cong.nguyen/.gradle/caches/transforms-3/533244640082d8f27bb0b43a22a9dc90/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:23:9-61
 	android:targetSdkVersion
-		INJECTED from /Users/cong.nguyen/Documents/Documents/mobile/flutter/flutter-uber-clone/android/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/cong.nguyen/Documents/Documents/mobile/flutter/flutter-uber-clone/android/app/src/debug/AndroidManifest.xml
+		INJECTED from /Users/cong.nguyen/Documents/Documents/mobile/flutter/flutter-uber-clone/passenger/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/cong.nguyen/Documents/Documents/mobile/flutter/flutter-uber-clone/passenger/android/app/src/debug/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /Users/cong.nguyen/Documents/Documents/mobile/flutter/flutter-uber-clone/android/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/cong.nguyen/Documents/Documents/mobile/flutter/flutter-uber-clone/android/app/src/debug/AndroidManifest.xml
+		INJECTED from /Users/cong.nguyen/Documents/Documents/mobile/flutter/flutter-uber-clone/passenger/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/cong.nguyen/Documents/Documents/mobile/flutter/flutter-uber-clone/passenger/android/app/src/debug/AndroidManifest.xml
 uses-permission#android.permission.INTERNET
-ADDED from /Users/cong.nguyen/Documents/Documents/mobile/flutter/flutter-uber-clone/android/app/src/debug/AndroidManifest.xml:6:5-66
+ADDED from /Users/cong.nguyen/Documents/Documents/mobile/flutter/flutter-uber-clone/passenger/android/app/src/debug/AndroidManifest.xml:6:5-66
 MERGED from [com.google.firebase:firebase-auth:22.3.1] /Users/cong.nguyen/.gradle/caches/transforms-3/533244640082d8f27bb0b43a22a9dc90/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:25:5-67
 MERGED from [com.google.firebase:firebase-auth:22.3.1] /Users/cong.nguyen/.gradle/caches/transforms-3/533244640082d8f27bb0b43a22a9dc90/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:25:5-67
 MERGED from [com.google.firebase:firebase-storage:20.3.0] /Users/cong.nguyen/.gradle/caches/transforms-3/72c4af45fe5291669422b7a3b2a082bd/transformed/jetified-firebase-storage-20.3.0/AndroidManifest.xml:24:5-67
@@ -273,15 +281,15 @@ MERGED from [com.google.android.recaptcha:recaptcha:18.4.0] /Users/cong.nguyen/.
 MERGED from [com.google.android.gms:play-services-maps:18.2.0] /Users/cong.nguyen/.gradle/caches/transforms-3/923b3eb6e0dbc3bf5e0ca1df1f71116a/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:24:5-67
 MERGED from [com.google.android.gms:play-services-maps:18.2.0] /Users/cong.nguyen/.gradle/caches/transforms-3/923b3eb6e0dbc3bf5e0ca1df1f71116a/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:24:5-67
 	android:name
-		ADDED from /Users/cong.nguyen/Documents/Documents/mobile/flutter/flutter-uber-clone/android/app/src/debug/AndroidManifest.xml:6:22-64
+		ADDED from /Users/cong.nguyen/Documents/Documents/mobile/flutter/flutter-uber-clone/passenger/android/app/src/debug/AndroidManifest.xml:6:22-64
 service#com.google.firebase.components.ComponentDiscoveryService
-ADDED from [:firebase_database] /Users/cong.nguyen/Documents/Documents/mobile/flutter/flutter-uber-clone/build/firebase_database/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-14:19
-MERGED from [:firebase_auth] /Users/cong.nguyen/Documents/Documents/mobile/flutter/flutter-uber-clone/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-14:19
-MERGED from [:firebase_auth] /Users/cong.nguyen/Documents/Documents/mobile/flutter/flutter-uber-clone/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-14:19
-MERGED from [:firebase_storage] /Users/cong.nguyen/Documents/Documents/mobile/flutter/flutter-uber-clone/build/firebase_storage/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-14:19
-MERGED from [:firebase_storage] /Users/cong.nguyen/Documents/Documents/mobile/flutter/flutter-uber-clone/build/firebase_storage/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-14:19
-MERGED from [:firebase_core] /Users/cong.nguyen/Documents/Documents/mobile/flutter/flutter-uber-clone/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-14:19
-MERGED from [:firebase_core] /Users/cong.nguyen/Documents/Documents/mobile/flutter/flutter-uber-clone/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-14:19
+ADDED from [:firebase_database] /Users/cong.nguyen/Documents/Documents/mobile/flutter/flutter-uber-clone/passenger/build/firebase_database/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-14:19
+MERGED from [:firebase_auth] /Users/cong.nguyen/Documents/Documents/mobile/flutter/flutter-uber-clone/passenger/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-14:19
+MERGED from [:firebase_auth] /Users/cong.nguyen/Documents/Documents/mobile/flutter/flutter-uber-clone/passenger/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-14:19
+MERGED from [:firebase_storage] /Users/cong.nguyen/Documents/Documents/mobile/flutter/flutter-uber-clone/passenger/build/firebase_storage/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-14:19
+MERGED from [:firebase_storage] /Users/cong.nguyen/Documents/Documents/mobile/flutter/flutter-uber-clone/passenger/build/firebase_storage/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-14:19
+MERGED from [:firebase_core] /Users/cong.nguyen/Documents/Documents/mobile/flutter/flutter-uber-clone/passenger/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-14:19
+MERGED from [:firebase_core] /Users/cong.nguyen/Documents/Documents/mobile/flutter/flutter-uber-clone/passenger/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-14:19
 MERGED from [com.google.firebase:firebase-auth:22.3.1] /Users/cong.nguyen/.gradle/caches/transforms-3/533244640082d8f27bb0b43a22a9dc90/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:66:9-72:19
 MERGED from [com.google.firebase:firebase-auth:22.3.1] /Users/cong.nguyen/.gradle/caches/transforms-3/533244640082d8f27bb0b43a22a9dc90/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:66:9-72:19
 MERGED from [com.google.firebase:firebase-storage:20.3.0] /Users/cong.nguyen/.gradle/caches/transforms-3/72c4af45fe5291669422b7a3b2a082bd/transformed/jetified-firebase-storage-20.3.0/AndroidManifest.xml:27:9-36:19
@@ -301,51 +309,51 @@ MERGED from [com.google.firebase:firebase-common:20.4.2] /Users/cong.nguyen/.gra
 	android:directBootAware
 		ADDED from [com.google.firebase:firebase-common:20.4.2] /Users/cong.nguyen/.gradle/caches/transforms-3/7dd5a93c9a0ed9d10afd2863c52f80df/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:32:13-43
 	android:name
-		ADDED from [:firebase_database] /Users/cong.nguyen/Documents/Documents/mobile/flutter/flutter-uber-clone/build/firebase_database/intermediates/merged_manifest/debug/AndroidManifest.xml:10:18-89
+		ADDED from [:firebase_database] /Users/cong.nguyen/Documents/Documents/mobile/flutter/flutter-uber-clone/passenger/build/firebase_database/intermediates/merged_manifest/debug/AndroidManifest.xml:10:18-89
 meta-data#com.google.firebase.components:io.flutter.plugins.firebase.database.FlutterFirebaseAppRegistrar
-ADDED from [:firebase_database] /Users/cong.nguyen/Documents/Documents/mobile/flutter/flutter-uber-clone/build/firebase_database/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-13:85
+ADDED from [:firebase_database] /Users/cong.nguyen/Documents/Documents/mobile/flutter/flutter-uber-clone/passenger/build/firebase_database/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-13:85
 	android:value
-		ADDED from [:firebase_database] /Users/cong.nguyen/Documents/Documents/mobile/flutter/flutter-uber-clone/build/firebase_database/intermediates/merged_manifest/debug/AndroidManifest.xml:13:17-82
+		ADDED from [:firebase_database] /Users/cong.nguyen/Documents/Documents/mobile/flutter/flutter-uber-clone/passenger/build/firebase_database/intermediates/merged_manifest/debug/AndroidManifest.xml:13:17-82
 	android:name
-		ADDED from [:firebase_database] /Users/cong.nguyen/Documents/Documents/mobile/flutter/flutter-uber-clone/build/firebase_database/intermediates/merged_manifest/debug/AndroidManifest.xml:12:17-127
+		ADDED from [:firebase_database] /Users/cong.nguyen/Documents/Documents/mobile/flutter/flutter-uber-clone/passenger/build/firebase_database/intermediates/merged_manifest/debug/AndroidManifest.xml:12:17-127
 meta-data#com.google.firebase.components:io.flutter.plugins.firebase.auth.FlutterFirebaseAuthRegistrar
-ADDED from [:firebase_auth] /Users/cong.nguyen/Documents/Documents/mobile/flutter/flutter-uber-clone/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-13:85
+ADDED from [:firebase_auth] /Users/cong.nguyen/Documents/Documents/mobile/flutter/flutter-uber-clone/passenger/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-13:85
 	android:value
-		ADDED from [:firebase_auth] /Users/cong.nguyen/Documents/Documents/mobile/flutter/flutter-uber-clone/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:13:17-82
+		ADDED from [:firebase_auth] /Users/cong.nguyen/Documents/Documents/mobile/flutter/flutter-uber-clone/passenger/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:13:17-82
 	android:name
-		ADDED from [:firebase_auth] /Users/cong.nguyen/Documents/Documents/mobile/flutter/flutter-uber-clone/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:12:17-124
+		ADDED from [:firebase_auth] /Users/cong.nguyen/Documents/Documents/mobile/flutter/flutter-uber-clone/passenger/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:12:17-124
 meta-data#com.google.firebase.components:io.flutter.plugins.firebase.storage.FlutterFirebaseAppRegistrar
-ADDED from [:firebase_storage] /Users/cong.nguyen/Documents/Documents/mobile/flutter/flutter-uber-clone/build/firebase_storage/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-13:85
+ADDED from [:firebase_storage] /Users/cong.nguyen/Documents/Documents/mobile/flutter/flutter-uber-clone/passenger/build/firebase_storage/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-13:85
 	android:value
-		ADDED from [:firebase_storage] /Users/cong.nguyen/Documents/Documents/mobile/flutter/flutter-uber-clone/build/firebase_storage/intermediates/merged_manifest/debug/AndroidManifest.xml:13:17-82
+		ADDED from [:firebase_storage] /Users/cong.nguyen/Documents/Documents/mobile/flutter/flutter-uber-clone/passenger/build/firebase_storage/intermediates/merged_manifest/debug/AndroidManifest.xml:13:17-82
 	android:name
-		ADDED from [:firebase_storage] /Users/cong.nguyen/Documents/Documents/mobile/flutter/flutter-uber-clone/build/firebase_storage/intermediates/merged_manifest/debug/AndroidManifest.xml:12:17-126
+		ADDED from [:firebase_storage] /Users/cong.nguyen/Documents/Documents/mobile/flutter/flutter-uber-clone/passenger/build/firebase_storage/intermediates/merged_manifest/debug/AndroidManifest.xml:12:17-126
 meta-data#com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar
-ADDED from [:firebase_core] /Users/cong.nguyen/Documents/Documents/mobile/flutter/flutter-uber-clone/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-13:85
+ADDED from [:firebase_core] /Users/cong.nguyen/Documents/Documents/mobile/flutter/flutter-uber-clone/passenger/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-13:85
 	android:value
-		ADDED from [:firebase_core] /Users/cong.nguyen/Documents/Documents/mobile/flutter/flutter-uber-clone/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:13:17-82
+		ADDED from [:firebase_core] /Users/cong.nguyen/Documents/Documents/mobile/flutter/flutter-uber-clone/passenger/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:13:17-82
 	android:name
-		ADDED from [:firebase_core] /Users/cong.nguyen/Documents/Documents/mobile/flutter/flutter-uber-clone/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:12:17-124
+		ADDED from [:firebase_core] /Users/cong.nguyen/Documents/Documents/mobile/flutter/flutter-uber-clone/passenger/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:12:17-124
 service#com.baseflow.geolocator.GeolocatorLocationService
-ADDED from [:geolocator_android] /Users/cong.nguyen/Documents/Documents/mobile/flutter/flutter-uber-clone/build/geolocator_android/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-14:56
+ADDED from [:geolocator_android] /Users/cong.nguyen/Documents/Documents/mobile/flutter/flutter-uber-clone/passenger/build/geolocator_android/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-14:56
 	android:enabled
-		ADDED from [:geolocator_android] /Users/cong.nguyen/Documents/Documents/mobile/flutter/flutter-uber-clone/build/geolocator_android/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-35
+		ADDED from [:geolocator_android] /Users/cong.nguyen/Documents/Documents/mobile/flutter/flutter-uber-clone/passenger/build/geolocator_android/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-35
 	android:exported
-		ADDED from [:geolocator_android] /Users/cong.nguyen/Documents/Documents/mobile/flutter/flutter-uber-clone/build/geolocator_android/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-37
+		ADDED from [:geolocator_android] /Users/cong.nguyen/Documents/Documents/mobile/flutter/flutter-uber-clone/passenger/build/geolocator_android/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-37
 	android:foregroundServiceType
-		ADDED from [:geolocator_android] /Users/cong.nguyen/Documents/Documents/mobile/flutter/flutter-uber-clone/build/geolocator_android/intermediates/merged_manifest/debug/AndroidManifest.xml:14:13-53
+		ADDED from [:geolocator_android] /Users/cong.nguyen/Documents/Documents/mobile/flutter/flutter-uber-clone/passenger/build/geolocator_android/intermediates/merged_manifest/debug/AndroidManifest.xml:14:13-53
 	android:name
-		ADDED from [:geolocator_android] /Users/cong.nguyen/Documents/Documents/mobile/flutter/flutter-uber-clone/build/geolocator_android/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-77
+		ADDED from [:geolocator_android] /Users/cong.nguyen/Documents/Documents/mobile/flutter/flutter-uber-clone/passenger/build/geolocator_android/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-77
 activity#io.flutter.plugins.urllauncher.WebViewActivity
-ADDED from [:url_launcher_android] /Users/cong.nguyen/Documents/Documents/mobile/flutter/flutter-uber-clone/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-13:74
+ADDED from [:url_launcher_android] /Users/cong.nguyen/Documents/Documents/mobile/flutter/flutter-uber-clone/passenger/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-13:74
 	android:exported
-		ADDED from [:url_launcher_android] /Users/cong.nguyen/Documents/Documents/mobile/flutter/flutter-uber-clone/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-37
+		ADDED from [:url_launcher_android] /Users/cong.nguyen/Documents/Documents/mobile/flutter/flutter-uber-clone/passenger/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-37
 	android:theme
-		ADDED from [:url_launcher_android] /Users/cong.nguyen/Documents/Documents/mobile/flutter/flutter-uber-clone/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-71
+		ADDED from [:url_launcher_android] /Users/cong.nguyen/Documents/Documents/mobile/flutter/flutter-uber-clone/passenger/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-71
 	android:name
-		ADDED from [:url_launcher_android] /Users/cong.nguyen/Documents/Documents/mobile/flutter/flutter-uber-clone/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-74
+		ADDED from [:url_launcher_android] /Users/cong.nguyen/Documents/Documents/mobile/flutter/flutter-uber-clone/passenger/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-74
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from [:connectivity_plus] /Users/cong.nguyen/Documents/Documents/mobile/flutter/flutter-uber-clone/build/connectivity_plus/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-79
+ADDED from [:connectivity_plus] /Users/cong.nguyen/Documents/Documents/mobile/flutter/flutter-uber-clone/passenger/build/connectivity_plus/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-79
 MERGED from [com.google.firebase:firebase-auth:22.3.1] /Users/cong.nguyen/.gradle/caches/transforms-3/533244640082d8f27bb0b43a22a9dc90/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:26:5-79
 MERGED from [com.google.firebase:firebase-auth:22.3.1] /Users/cong.nguyen/.gradle/caches/transforms-3/533244640082d8f27bb0b43a22a9dc90/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:26:5-79
 MERGED from [com.google.firebase:firebase-storage:20.3.0] /Users/cong.nguyen/.gradle/caches/transforms-3/72c4af45fe5291669422b7a3b2a082bd/transformed/jetified-firebase-storage-20.3.0/AndroidManifest.xml:23:5-79
@@ -357,7 +365,7 @@ MERGED from [com.google.android.recaptcha:recaptcha:18.4.0] /Users/cong.nguyen/.
 MERGED from [com.google.android.gms:play-services-maps:18.2.0] /Users/cong.nguyen/.gradle/caches/transforms-3/923b3eb6e0dbc3bf5e0ca1df1f71116a/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:23:5-79
 MERGED from [com.google.android.gms:play-services-maps:18.2.0] /Users/cong.nguyen/.gradle/caches/transforms-3/923b3eb6e0dbc3bf5e0ca1df1f71116a/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:23:5-79
 	android:name
-		ADDED from [:connectivity_plus] /Users/cong.nguyen/Documents/Documents/mobile/flutter/flutter-uber-clone/build/connectivity_plus/intermediates/merged_manifest/debug/AndroidManifest.xml:9:22-76
+		ADDED from [:connectivity_plus] /Users/cong.nguyen/Documents/Documents/mobile/flutter/flutter-uber-clone/passenger/build/connectivity_plus/intermediates/merged_manifest/debug/AndroidManifest.xml:9:22-76
 activity#com.google.firebase.auth.internal.GenericIdpActivity
 ADDED from [com.google.firebase:firebase-auth:22.3.1] /Users/cong.nguyen/.gradle/caches/transforms-3/533244640082d8f27bb0b43a22a9dc90/transformed/jetified-firebase-auth-22.3.1/AndroidManifest.xml:29:9-46:20
 	android:excludeFromRecents

@@ -1,10 +1,30 @@
 {
   "project_info": {
     "project_number": "794746531374",
+    "firebase_url": "https://flutter-uber-clone-443e8-default-rtdb.asia-southeast1.firebasedatabase.app",
     "project_id": "flutter-uber-clone-443e8",
     "storage_bucket": "flutter-uber-clone-443e8.appspot.com"
   },
   "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:794746531374:android:73771e8741ddc80814b9bf",
+        "android_client_info": {
+          "package_name": "com.example.drriver"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCFprf4RqaEUH5equnJaf1CErIapRcFWcw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
     {
       "client_info": {
         "mobilesdk_app_id": "1:794746531374:android:862f18f06bd8f97a14b9bf",

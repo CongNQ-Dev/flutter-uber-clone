@@ -3,10 +3,9 @@ import 'package:assets_audio_player/assets_audio_player.dart';
 import 'package:geolocator/geolocator.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
 
-
 String userName = "";
 
-String googleMapKey = "paste your key here";
+String googleMapKey = "AIzaSyCv46WaFWEk94KBGK0YAxo3t-DGgFQEO7s";
 
 const CameraPosition googlePlexInitialPosition = CameraPosition(
   target: LatLng(37.42796133580664, -122.085749655962),
