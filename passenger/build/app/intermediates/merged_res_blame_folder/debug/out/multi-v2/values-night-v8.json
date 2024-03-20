@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.uber_clone.app-mergeDebugResources-16:/values-night-v8/values-night-v8.xml",
+            "outputFile": "com.example.uber_clone.app-mergeDebugResources-18:/values-night-v8/values-night-v8.xml",
             "map": [
                 {
                     "source": "/Users/cong.nguyen/Documents/Documents/mobile/flutter/flutter-uber-clone/passenger/android/app/src/main/res/values-night/styles.xml",

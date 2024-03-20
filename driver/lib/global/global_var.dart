@@ -5,7 +5,7 @@ import 'package:google_maps_flutter/google_maps_flutter.dart';
 
 String userName = "";
 
-String googleMapKey = "AIzaSyCv46WaFWEk94KBGK0YAxo3t-DGgFQEO7s";
+String googleMapKey = "AIzaSyAfuGkKwJN9WIO3T1pFb5ee-T0_4yCaT5g";
 
 const CameraPosition googlePlexInitialPosition = CameraPosition(
   target: LatLng(37.42796133580664, -122.085749655962),

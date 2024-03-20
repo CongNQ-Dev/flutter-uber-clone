@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.uber_clone.app-mergeDebugResources-16:/values-fr/values-fr.xml",
+            "outputFile": "com.example.uber_clone.app-mergeDebugResources-18:/values-fr/values-fr.xml",
             "map": [
                 {
                     "source": "/Users/cong.nguyen/.gradle/caches/transforms-3/958cb211f1ea886007a6251f88872e9a/transformed/jetified-play-services-basement-18.3.0/res/values-fr/values.xml",

@@ -88,45 +88,15 @@ class _HomePageState extends State<HomePage> {
   //   return utf8.decode(list);
   // }
 
-  // setGoogleMapStyle(String googleMapStyle, GoogleMapController controller) {
-  //   controller.setMapStyle(googleMapStyle);
-  // }
+  setGoogleMapStyle(String googleMapStyle, GoogleMapController controller) {
+    controller.setMapStyle(googleMapStyle);
+  }
 
   getCurrentLiveLocationOfUser() async {
-    bool serviceEnabled;
-    LocationPermission permission;
-
-    // Test if location services are enabled.
-    serviceEnabled = await Geolocator.isLocationServiceEnabled();
-    if (!serviceEnabled) {
-      // Location services are not enabled don't continue
-      // accessing the position and request users of the
-      // App to enable the location services.
-      return Future.error('Location services are disabled.');
-    }
-
-    permission = await Geolocator.checkPermission();
-    if (permission == LocationPermission.denied) {
-      permission = await Geolocator.requestPermission();
-      if (permission == LocationPermission.denied) {
-        // Permissions are denied, next time you could try
-        // requesting permissions again (this is also where
-        // Android's shouldShowRequestPermissionRationale
-        // returned true. According to Android guidelines
-        // your App should show an explanatory UI now.
-        return Future.error('Location permissions are denied');
-      }
-    }
-
-    if (permission == LocationPermission.deniedForever) {
-      // Permissions are denied forever, handle appropriately.
-      return Future.error(
-          'Location permissions are permanently denied, we cannot request permissions.');
-    }
     Position positionOfUser = await Geolocator.getCurrentPosition(
         desiredAccuracy: LocationAccuracy.bestForNavigation);
     currentPositionOfUser = positionOfUser;
-
+    print('Current Location: $positionOfUser');
     LatLng positionOfUserInLatLng = LatLng(
         currentPositionOfUser!.latitude, currentPositionOfUser!.longitude);
 
@@ -466,12 +436,12 @@ class _HomePageState extends State<HomePage> {
 
     Map pickUpCoOrdinatesMap = {
       "latitude": pickUpLocation!.latitudePosition.toString(),
-      "longitude": pickUpLocation.longitudePosition.toString(),
+      "longitude": pickUpLocation!.longitudePosition.toString(),
     };
 
     Map dropOffDestinationCoOrdinatesMap = {
       "latitude": dropOffDestinationLocation!.latitudePosition.toString(),
-      "longitude": dropOffDestinationLocation.longitudePosition.toString(),
+      "longitude": dropOffDestinationLocation!.longitudePosition.toString(),
     };
 
     Map driverCoOrdinates = {
@@ -718,7 +688,7 @@ class _HomePageState extends State<HomePage> {
           timer.cancel();
           currentDriverRef.set("cancelled");
           currentDriverRef.onDisconnect();
-          requestTimeoutDriver = 20;
+          requestTimeoutDriver = 60;
         }
 
         //when trip request is accepted by online nearest available driver
@@ -726,7 +696,7 @@ class _HomePageState extends State<HomePage> {
           if (dataSnapshot.snapshot.value.toString() == "accepted") {
             timer.cancel();
             currentDriverRef.onDisconnect();
-            requestTimeoutDriver = 20;
+            requestTimeoutDriver = 60;
           }
         });
 
@@ -735,7 +705,7 @@ class _HomePageState extends State<HomePage> {
           currentDriverRef.set("timeout");
           timer.cancel();
           currentDriverRef.onDisconnect();
-          requestTimeoutDriver = 20;
+          requestTimeoutDriver = 60;
 
           //send notification to next nearest online available driver
           searchDriver();

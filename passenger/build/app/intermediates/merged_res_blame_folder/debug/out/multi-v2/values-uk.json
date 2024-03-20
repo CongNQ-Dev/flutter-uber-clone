@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.uber_clone.app-mergeDebugResources-16:/values-uk/values-uk.xml",
+            "outputFile": "com.example.uber_clone.app-mergeDebugResources-18:/values-uk/values-uk.xml",
             "map": [
                 {
                     "source": "/Users/cong.nguyen/.gradle/caches/transforms-3/f1f24747a582f8a2b2cc9b47ed21ff63/transformed/core-1.10.1/res/values-uk/values-uk.xml",
