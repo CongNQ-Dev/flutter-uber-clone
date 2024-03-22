@@ -1,4 +1,0 @@
-#Wed Mar 20 19:06:25 ICT 2024
-base.0=/Users/cong.nguyen/Documents/Documents/mobile/flutter/flutter-uber-clone/passenger/build/app/intermediates/dex/debug/mergeDexDebug/classes.dex
-path.0=classes.dex
-renamed.0=classes.dex

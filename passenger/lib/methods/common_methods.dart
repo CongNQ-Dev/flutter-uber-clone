@@ -55,7 +55,12 @@ class CommonMethods {
 
     var responseFromAPI = await sendRequestToAPI(apiGeoCodingUrl);
 
-    if (responseFromAPI != "error") {
+    // if (responseFromAPI != "error") {
+    //   humanReadableAddress = responseFromAPI["results"][0]["formatted_address"];
+    if (responseFromAPI is Map &&
+        responseFromAPI.containsKey("results") &&
+        responseFromAPI["results"] is List &&
+        responseFromAPI["results"].isNotEmpty) {
       humanReadableAddress = responseFromAPI["results"][0]["formatted_address"];
 
       AddressModel model = AddressModel();
