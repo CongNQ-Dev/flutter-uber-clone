@@ -65,6 +65,10 @@ class CommonMethods {
       model.latitudePosition = position.latitude;
 
       Provider.of<AppInfo>(context, listen: false).updatePickUpLocation(model);
+    } else {
+      CommonMethods().displaySnackBar(
+          "Không thể lấy địa chỉ từ vị trí hiện tại. Vui lòng thử lại sau.",
+          context);
     }
 
     return humanReadableAddress;

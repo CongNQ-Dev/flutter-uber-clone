@@ -121,7 +121,7 @@
 88            android:value="2" />
 89        <meta-data
 90            android:name="com.google.android.geo.API_KEY"
-91            android:value="AIzaSyAfuGkKwJN9WIO3T1pFb5ee-T0_4yCaT5g" />
+91            android:value="AIzaSyCFprf4RqaEUH5equnJaf1CErIapRcFWcw" />
 92
 93        <service
 93-->[:firebase_database] /Users/cong.nguyen/Documents/Documents/mobile/flutter/flutter-uber-clone/passenger/build/firebase_database/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-14:19
