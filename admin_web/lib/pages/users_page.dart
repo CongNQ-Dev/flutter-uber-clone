@@ -1,9 +1,8 @@
-import 'package:admin_uber_web_panel/widgets/users_data_list.dart';
+import 'package:admin_web/widgets/users_data_list.dart';
 import 'package:flutter/material.dart';
 import '../methods/common_methods.dart';
 
-class UsersPage extends StatefulWidget
-{
+class UsersPage extends StatefulWidget {
   static const String id = "\webPageUsers";
 
   const UsersPage({super.key});
@@ -12,14 +11,11 @@ class UsersPage extends StatefulWidget
   State<UsersPage> createState() => _UsersPageState();
 }
 
-class _UsersPageState extends State<UsersPage>
-{
+class _UsersPageState extends State<UsersPage> {
   CommonMethods cMethods = CommonMethods();
 
-
   @override
-  Widget build(BuildContext context)
-  {
+  Widget build(BuildContext context) {
     return Scaffold(
       body: Padding(
         padding: const EdgeInsets.all(16),
@@ -27,7 +23,6 @@ class _UsersPageState extends State<UsersPage>
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-
               Container(
                 alignment: Alignment.topLeft,
                 child: const Text(

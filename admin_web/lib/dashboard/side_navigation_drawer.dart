@@ -1,7 +1,7 @@
-import 'package:admin_uber_web_panel/dashboard/dashboard.dart';
-import 'package:admin_uber_web_panel/pages/drivers_page.dart';
-import 'package:admin_uber_web_panel/pages/trips_page.dart';
-import 'package:admin_uber_web_panel/pages/users_page.dart';
+import 'package:admin_web/dashboard/dashboard.dart';
+import 'package:admin_web/pages/drivers_page.dart';
+import 'package:admin_web/pages/trips_page.dart';
+import 'package:admin_web/pages/users_page.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_admin_scaffold/admin_scaffold.dart';
@@ -17,14 +17,11 @@ class SideNavigationDrawer extends StatefulWidget {
   State<SideNavigationDrawer> createState() => _SideNavigationDrawerState();
 }
 
-class _SideNavigationDrawerState extends State<SideNavigationDrawer>
-{
+class _SideNavigationDrawerState extends State<SideNavigationDrawer> {
   Widget chosenScreen = Dashboard();
 
-  sendAdminTo(selectedPage)
-  {
-    switch(selectedPage.route)
-    {
+  sendAdminTo(selectedPage) {
+    switch (selectedPage.route) {
       case DriversPage.id:
         setState(() {
           chosenScreen = DriversPage();
@@ -46,12 +43,11 @@ class _SideNavigationDrawerState extends State<SideNavigationDrawer>
   }
 
   @override
-  Widget build(BuildContext context)
-  {
+  Widget build(BuildContext context) {
     return AdminScaffold(
       backgroundColor: const Color.fromRGBO(255, 255, 255, 1),
       appBar: AppBar(
-        backgroundColor: Colors.pinkAccent.shade700,
+        backgroundColor: Colors.blue.shade700,
         title: const Text(
           "Admin Web Panel",
           style: TextStyle(
@@ -79,14 +75,13 @@ class _SideNavigationDrawerState extends State<SideNavigationDrawer>
           ),
         ],
         selectedRoute: DriversPage.id,
-        onSelected: (selectedPage)
-        {
+        onSelected: (selectedPage) {
           sendAdminTo(selectedPage);
         },
         header: Container(
           height: 52,
           width: double.infinity,
-          color: Colors.pink.shade500,
+          color: Colors.blue.shade500,
           child: const Row(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
@@ -107,7 +102,7 @@ class _SideNavigationDrawerState extends State<SideNavigationDrawer>
         footer: Container(
           height: 52,
           width: double.infinity,
-          color: Colors.pink.shade500,
+          color: Colors.blue.shade500,
           child: const Row(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [

@@ -1,4 +1,4 @@
-import 'package:admin_uber_web_panel/widgets/trips_data_list.dart';
+import 'package:admin_web/widgets/trips_data_list.dart';
 import 'package:flutter/material.dart';
 
 import '../methods/common_methods.dart';
